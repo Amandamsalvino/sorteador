@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'archivoblack', sans-serif;
+}
+
+
+body {
+
+    background-color: #000000;
+
+}
+
+img {
+
+    display: block;
+    margin-top: 3%;
+    width: 400px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+h1 {
+
+    font-size: 50px;
+    width: 400px;
+    height: 80px;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 38%;
+    padding-top: 10px;
+
+}
+
+h4 {
+
+
+    width: 299px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 42%;
+    padding-top: 50px;
+
+}
+
+
+.esquerdo {
+
+    display: flex;
+    width: 342px;
+    padding: 40px 33px 30px 20px;
+    align-items: center;
+    position: absolute;
+    left: 25%;
+    top: 65%;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.direito {
+
+    display: flex;
+    width: 342px;
+    padding: 40px 24px 30px 20px;
+    align-items: center;
+    position: absolute;
+    right: 25%;
+    top: 65%;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+input::placeholder {
+
+    width: 93px;
+    height: 31px;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 500;
+    opacity: 0.7;
+
+}
+
+input:hover {
+
+    opacity: 80%;
+}
+
+input:active {
+
+    opacity: 50%;
+}
+
+
+button {
+
+    display: flex;
+    width: 342px;
+    height: 72px;
+    padding: 0px 76px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    position: absolute;
+    bottom: 3%;
+    left: 38%;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+button:hover {
+
+    opacity: 80%;
+}
+
+button:active {
+
+    opacity: 50%;
+}
+
+
+.result{
+    display: flex;
+
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    border-radius: 50%;
+    border: 4px solid rgba(252, 16, 16, 0.70);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.numero-result {
+
+    font-size: 60px;
+    font-weight: bolder;
+   
+    color: rgba(252, 16, 16, 5);
+
+}
+
+.numero-sorteado{
+
+    visibility: hidden;
+    position: absolute;
+    top: 280px;
+    left: 35px;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: bolder;
+
+}
